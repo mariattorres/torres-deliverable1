@@ -1,0 +1,105 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 0.5em;
+}
+
+h1 {
+    color: #20a8b4;
+}
+
+#h1Code {
+    color: #ff5c0f;
+}
+
+#h2Learning {
+    color: #ff5c0f;
+}
+
+button {
+    background-color: #20a8b4;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    margin-left: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+}
+
+#image {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: .5em;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color:#ff5c0f;
+}
+
+@media (max-width: 768px) {
+    img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0em 1em;
+        }
+
+        .nav-list {
+            display: flex;
+            flex-direction: row;
+        }
+
+        main {
+            margin-top: 100px;
+         } 
+
+    h2 p #learnMore {
+        float: left;
+    }
+
+    #mainBody {
+        float: left;
+        margin-top: 150px;
+    }
+
+    #image {
+        float: right;
+        padding: 5px;
+    } 
+
+    #learnMore {
+        width: auto;
+        float: left;
+    }
+    
+   .nav-list li {
+        display: inline;
+    }
+}
